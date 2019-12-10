@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Badak Promotions</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Badak Promotions</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<div class="container">
+	<div id="team"><h1><b>Team</b></h1></div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="flip"> 
+			    <div class="front">
+			        <img src="img/gursimran.png" alt="" />
+			    </div> 
+			    <div class="back">
+			        <h3>Elif Badak</h3>
+			        <h4>Manager</h4>
+			        <p>She's great</p>
+			    </div>
+			</div>
+	 	</div>
+		<div class="col-md-4">
+			<div class="flip"> 
+			    <div class="front"> 
+			        <img src="img/manwinder.png" alt="" />
+			    </div> 
+			    <div class="back">
+			        <h3>Elif Badak</h3>
+			        <h4>Manager</h4>
+			        <p>She knows her stuff</p>
+			    </div> 
+			</div>
+	 	</div>
+		<div class="col-md-4">
+			<div class="flip"> 
+			    <div class="front"> 
+			        <img src="img/vishavjit.png" alt="" />
+			    </div> 
+			    <div class="back">
+			        <h3>Elif Badak</h3>
+			        <h4>Manager</h4>
+			        <p>i'm the manager</p>
+			    </div> 
+			</div>
+	 	</div>
+	</div>
+	<div id="about-box">
+		<h1><b>About Us</b></h1>
+		<h3>Badak Promotions</h3>
+		<h2>We are a company here to help your company grow. </h2>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover',
+        axis: 'y'
+    });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,346 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+h2{
+text-align: center;
+font-size: 24px;
+}
+hr{
+margin-bottom: 30px;
+}
+div.container{
+padding-top: 10%;
+font-family: 'Droid Serif', serif;
+position:relative;
+}
+
+/*Profile Cards*/
+
+.container {
+  padding: 2px 16px;
+}
+
+body {
+  background-image: url('../img/11.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+.flip {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+
+   /* Centered text */
+   h1{
+    font-size: 25px !important;
+   }
+   h2{
+    font-size: 20px !important;
+   }
+   h3{
+    font-size: 18px !important;
+   }
+  #home-box{
+    margin-top: 200px;
+    margin-left: 60px;
+    padding-top: 10px;
+    width: 200px;
+    height: 140px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.8;
+  }
+  #centered {
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+  }
+  #subtitle {
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+  }
+    #centered:hover {
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+  }
+  #subtitle:hover {
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+  }
+  #team {
+    position: relative;
+    top: 50px;
+    left: 5px;
+    width: 300px;
+    height: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #about-box{
+    margin-top: 100px;
+    margin-left: 14px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.8;
+    padding-bottom: 10px;
+  }
+
+.card {
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  -webkit-transition-property: width; /* Safari */
+  transition-property: width;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+.flip {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+
+   /* Centered text */
+   h1{
+    font-size: 35px !important;
+   }
+   h2{
+    font-size: 20px !important;
+   }
+   h3{
+    font-size: 18px !important;
+   }
+  #home-box{
+    margin-top: 400px;
+    margin-left: 40px;
+    padding-top: 10px;
+    width: 600px;
+    height: 140px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.8;
+  }
+  #centered {
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+  }
+  #subtitle {
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+  }
+  #team {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    width: 300px;
+    height: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #about-box{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.8;
+    padding-bottom: 10px;
+  }
+
+.card {
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 50%;
+  -webkit-transition-property: width; /* Safari */
+  transition-property: width;
+}
+}
+ 
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+
+
+.flip {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+
+  /* Centered text */
+
+  #home-box{
+    margin-top: 200px;
+    margin-left: 150px;
+    padding-top: 10px;
+    width: 800px;
+    height: 140px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.5;
+  }
+  #home-box:hover{
+    margin-top: 200px;
+    margin-left: 150px;
+    padding-top: 10px;
+    width: 800px;
+    height: 140px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.9;
+  }
+  #centered {
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+  }
+  #subtitle {
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+  }
+    #centered:hover {
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+  }
+  #subtitle:hover {
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+  }
+  #team {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    width: 600px;
+    height: 120px;
+    text-align: center;
+  }
+  #about-box{
+    margin-top: 60px;
+    margin-left: 180px;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.7;
+  }
+  #about-box:hover{
+    margin-top: 60px;
+    margin-left: 180px;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    background-color: #D3D3D3;
+    opacity: 0.9;
+  }
+
+.card {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  -webkit-transition-property: width; /* Safari */
+  transition-property: width;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 33%;
+}
+
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
